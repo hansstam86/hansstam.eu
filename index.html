@@ -11,123 +11,75 @@
 <meta property="og:description" content="Fractional hardware advisory and China sourcing strategy for startups and scaling companies.">
 <meta property="og:url" content="https://www.hansstam.eu/">
 <meta property="og:type" content="website">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Hans Stam",
-  "url": "https://www.hansstam.eu/",
-  "jobTitle": "Hardware & Supply Chain Consultant",
-  "sameAs": [
-    "https://www.linkedin.com/in/hansstam/",
-    "https://thehardesthardwarelessons.com/",
-    "https://www.dfminsights.com/",
-    "https://www.factorytruth.com/"
-  ]
-}
-</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hans Stam","url":"https://www.hansstam.eu/","jobTitle":"Hardware & Supply Chain Consultant","sameAs":["https://www.linkedin.com/in/hansstam/","https://thehardesthardwarelessons.com/","https://www.dfminsights.com/","https://www.factorytruth.com/"]}</script>
 <style>
-  :root {
-    --bg: #f9f8f6; --bg2: #f0ede8; --text: #1a1a1a; --muted: #666;
-    --border: #e0dcd6; --accent: #1a1a1a; --gold: #c9a227; --gold-light: #faeeda;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }
-
-  nav {
-    position: fixed; top: 0; width: 100%; z-index: 100;
-    background: rgba(249,248,246,0.96); backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--border);
-    padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
-  }
-  nav .logo { font-family: sans-serif; font-size: 0.9rem; font-weight: 600; letter-spacing: 0.05em; color: var(--text); text-decoration: none; }
-  nav .nav-links { display: flex; align-items: center; gap: 2rem; }
-  nav .nav-link { font-family: sans-serif; font-size: 0.8rem; color: var(--muted); text-decoration: none; letter-spacing: 0.05em; transition: color 0.2s; }
-  nav .nav-link:hover { color: var(--text); }
-  nav .cta-nav { background: var(--text); color: #fff; padding: 0.5rem 1.25rem; border-radius: 3px; text-decoration: none; font-family: sans-serif; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; transition: background 0.2s; }
-  nav .cta-nav:hover { background: #333; }
-
-  section { padding: 5rem 2rem; }
-  .container { max-width: 820px; margin: 0 auto; }
-  .section-label { font-family: sans-serif; font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 600; }
-  h2 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); color: var(--text); font-weight: normal; margin-bottom: 1.5rem; line-height: 1.25; }
-
-  .hero { min-height: 100vh; display: flex; align-items: center; padding: 6rem 2rem 4rem; background: #fff; border-bottom: 1px solid var(--border); }
-  .hero-inner { max-width: 820px; margin: 0 auto; display: flex; gap: 4rem; align-items: center; }
-  .hero-photo { width: 140px; height: 140px; border-radius: 50%; flex-shrink: 0; border: 2px solid var(--border); overflow: hidden; }
-  .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
-  .hero-text { flex: 1; }
-  .hero-eyebrow { font-family: sans-serif; font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 1rem; }
-  .hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.15; color: var(--text); font-weight: normal; margin-bottom: 1rem; }
-  .hero-sub { font-size: 1.1rem; color: var(--muted); margin-bottom: 2rem; max-width: 540px; line-height: 1.7; }
-  .hero-cta { display: inline-block; background: var(--text); color: #fff; padding: 0.9rem 2rem; border-radius: 3px; text-decoration: none; font-family: sans-serif; font-weight: 600; font-size: 0.9rem; letter-spacing: 0.05em; transition: background 0.2s; margin-right: 1rem; }
-  .hero-cta:hover { background: #333; }
-  .hero-cta-ghost { display: inline-block; color: var(--text); padding: 0.9rem 0; text-decoration: none; font-family: sans-serif; font-size: 0.9rem; border-bottom: 1px solid var(--border); transition: border-color 0.2s; }
-  .hero-cta-ghost:hover { border-color: var(--text); }
-
-  .credentials { background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-  .cred-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 2rem; }
-  .cred-num { font-size: 2rem; font-weight: normal; color: var(--text); line-height: 1; margin-bottom: 0.25rem; }
-  .cred-label { font-family: sans-serif; font-size: 0.8rem; color: var(--muted); line-height: 1.4; }
-
-  .services { background: #fff; border-top: 1px solid var(--border); }
-  .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
-  .service-card { border: 1px solid var(--border); border-radius: 4px; padding: 2rem; background: var(--bg); transition: border-color 0.2s; }
-  .service-card:hover { border-color: #bbb; }
-  .service-icon { font-family: sans-serif; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; font-weight: 600; }
-  .service-title { font-size: 1.2rem; color: var(--text); margin-bottom: 0.75rem; font-weight: normal; }
-  .service-desc { font-family: sans-serif; font-size: 0.88rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.25rem; }
-  .service-list { list-style: none; }
-  .service-list li { font-family: sans-serif; font-size: 0.85rem; color: var(--muted); padding: 0.4rem 0; border-top: 1px solid var(--border); line-height: 1.5; }
-  .service-list li:first-child { border-top: none; }
-  .service-list li::before { content: "— "; color: var(--gold); }
-
-  .dfm-crosssell { background: var(--gold-light); border: 1px solid #f0c878; border-radius: 4px; padding: 1.5rem 2rem; display: flex; gap: 1.5rem; align-items: flex-start; margin-top: 1.5rem; }
-  .dfm-crosssell-icon { font-size: 1.5rem; flex-shrink: 0; margin-top: 2px; }
-  .dfm-crosssell-label { font-family: sans-serif; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.3rem; font-weight: 600; }
-  .dfm-crosssell h4 { font-size: 1rem; font-weight: normal; color: var(--text); margin-bottom: 0.4rem; }
-  .dfm-crosssell p { font-family: sans-serif; font-size: 0.85rem; color: #7a5c1a; line-height: 1.6; margin-bottom: 0.75rem; }
-  .dfm-crosssell a { font-family: sans-serif; font-size: 0.82rem; color: var(--text); font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--gold); padding-bottom: 1px; }
-  .dfm-crosssell a:hover { border-color: var(--text); }
-
-  .who { background: var(--bg2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
-  .who p { color: var(--muted); font-size: 1.05rem; margin-bottom: 1.2rem; }
-  .who p:last-child { margin-bottom: 0; }
-  .who strong { color: var(--text); }
-
-  .book-section { background: #fff; border-top: 1px solid var(--border); }
-  .book-card { display: flex; gap: 2.5rem; align-items: flex-start; background: var(--gold-light); border: 1px solid #fac775; border-radius: 4px; padding: 2rem 2.5rem; margin-top: 2rem; }
-  .book-text h3 { font-size: 1.3rem; font-weight: normal; color: var(--text); margin-bottom: 0.5rem; }
-  .book-text p { font-family: sans-serif; font-size: 0.88rem; color: #7a5c1a; line-height: 1.6; margin-bottom: 1rem; }
-  .book-link { display: inline-block; background: var(--text); color: #fff; padding: 0.6rem 1.5rem; border-radius: 3px; text-decoration: none; font-family: sans-serif; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.05em; transition: background 0.2s; }
-  .book-link:hover { background: #333; }
-  .substack-link { display: inline-block; margin-left: 1rem; font-family: sans-serif; font-size: 0.8rem; color: #7a5c1a; text-decoration: none; border-bottom: 1px solid #fac775; padding-bottom: 1px; transition: border-color 0.2s; }
-  .substack-link:hover { border-color: #7a5c1a; }
-
-  .contact { background: var(--text); }
-  .contact .section-label { color: var(--gold); }
-  .contact h2 { color: #fff; }
-  .contact p { color: #aaa; font-size: 1rem; margin-bottom: 2rem; max-width: 500px; }
-  .contact-email { display: inline-block; background: var(--gold); color: #000; padding: 0.9rem 2rem; border-radius: 3px; text-decoration: none; font-family: sans-serif; font-weight: 700; font-size: 0.9rem; letter-spacing: 0.05em; transition: background 0.2s; }
-  .contact-email:hover { background: #e8c547; }
-  .contact-links { margin-top: 1.5rem; display: flex; gap: 2rem; flex-wrap: wrap; }
-  .contact-link { font-family: sans-serif; font-size: 0.8rem; color: #666; text-decoration: none; transition: color 0.2s; }
-  .contact-link:hover { color: #aaa; }
-
-  footer { background: var(--text); border-top: 1px solid #333; padding: 1.5rem 2rem; text-align: center; font-family: sans-serif; font-size: 0.75rem; color: #555; }
-  footer a { color: var(--gold); text-decoration: none; }
-
-  @media (max-width: 640px) {
-    .hero-inner { flex-direction: column; gap: 2rem; }
-    .hero-photo { width: 100px; height: 100px; }
-    .book-card { flex-direction: column; gap: 1.5rem; }
-    .dfm-crosssell { flex-direction: column; gap: 1rem; }
-  }
+  :root{--bg:#f9f8f6;--bg2:#f0ede8;--text:#1a1a1a;--muted:#666;--border:#e0dcd6;--gold:#c9a227;--gold-light:#faeeda;}
+  *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--text);font-family:'Georgia',serif;line-height:1.7}
+  nav{position:fixed;top:0;width:100%;z-index:100;background:rgba(249,248,246,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center}
+  nav .logo{font-family:sans-serif;font-size:.9rem;font-weight:600;letter-spacing:.05em;color:var(--text);text-decoration:none}
+  nav .nav-links{display:flex;align-items:center;gap:2rem}
+  nav .nav-link{font-family:sans-serif;font-size:.8rem;color:var(--muted);text-decoration:none;letter-spacing:.05em;transition:color .2s}
+  nav .nav-link:hover{color:var(--text)}
+  nav .cta-nav{background:var(--text);color:#fff;padding:.5rem 1.25rem;border-radius:3px;text-decoration:none;font-family:sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.05em;transition:background .2s}
+  nav .cta-nav:hover{background:#333}
+  section{padding:5rem 2rem}.container{max-width:820px;margin:0 auto}
+  .section-label{font-family:sans-serif;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:600}
+  h2{font-size:clamp(1.6rem,3.5vw,2.4rem);color:var(--text);font-weight:normal;margin-bottom:1.5rem;line-height:1.25}
+  .hero{min-height:100vh;display:flex;align-items:center;padding:6rem 2rem 4rem;background:#fff;border-bottom:1px solid var(--border)}
+  .hero-inner{max-width:820px;margin:0 auto;display:flex;gap:4rem;align-items:center}
+  .hero-photo{width:140px;height:140px;border-radius:50%;flex-shrink:0;border:2px solid var(--border);overflow:hidden}
+  .hero-photo img{width:100%;height:100%;object-fit:cover}
+  .hero-text{flex:1}
+  .hero-eyebrow{font-family:sans-serif;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem}
+  .hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.15;color:var(--text);font-weight:normal;margin-bottom:1rem}
+  .hero-sub{font-size:1.1rem;color:var(--muted);margin-bottom:2rem;max-width:540px;line-height:1.7}
+  .hero-cta{display:inline-block;background:var(--text);color:#fff;padding:.9rem 2rem;border-radius:3px;text-decoration:none;font-family:sans-serif;font-weight:600;font-size:.9rem;letter-spacing:.05em;transition:background .2s;margin-right:1rem}
+  .hero-cta:hover{background:#333}
+  .hero-cta-ghost{display:inline-block;color:var(--text);padding:.9rem 0;text-decoration:none;font-family:sans-serif;font-size:.9rem;border-bottom:1px solid var(--border);transition:border-color .2s}
+  .hero-cta-ghost:hover{border-color:var(--text)}
+  .credentials{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .cred-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;margin-top:2rem}
+  .cred-num{font-size:2rem;font-weight:normal;color:var(--text);line-height:1;margin-bottom:.25rem}
+  .cred-label{font-family:sans-serif;font-size:.8rem;color:var(--muted);line-height:1.4}
+  .services{background:#fff;border-top:1px solid var(--border)}
+  .services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1.5rem;margin-top:2rem}
+  .service-card{border:1px solid var(--border);border-radius:4px;padding:2rem;background:var(--bg);transition:border-color .2s}
+  .service-card:hover{border-color:#bbb}
+  .service-icon{font-family:sans-serif;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;font-weight:600}
+  .service-title{font-size:1.2rem;color:var(--text);margin-bottom:.75rem;font-weight:normal}
+  .service-desc{font-family:sans-serif;font-size:.88rem;color:var(--muted);line-height:1.6;margin-bottom:1.25rem}
+  .service-list{list-style:none}
+  .service-list li{font-family:sans-serif;font-size:.85rem;color:var(--muted);padding:.4rem 0;border-top:1px solid var(--border);line-height:1.5}
+  .service-list li:first-child{border-top:none}
+  .service-list li::before{content:"— ";color:var(--gold)}
+  .who{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .who p{color:var(--muted);font-size:1.05rem;margin-bottom:1.2rem}
+  .who p:last-child{margin-bottom:0}
+  .who strong{color:var(--text)}
+  .book-section{background:#fff;border-top:1px solid var(--border)}
+  .book-card{display:flex;gap:2.5rem;align-items:flex-start;background:var(--gold-light);border:1px solid #fac775;border-radius:4px;padding:2rem 2.5rem;margin-top:2rem}
+  .book-text h3{font-size:1.3rem;font-weight:normal;color:var(--text);margin-bottom:.5rem}
+  .book-text p{font-family:sans-serif;font-size:.88rem;color:#7a5c1a;line-height:1.6;margin-bottom:1rem}
+  .book-link{display:inline-block;background:var(--text);color:#fff;padding:.6rem 1.5rem;border-radius:3px;text-decoration:none;font-family:sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.05em;transition:background .2s}
+  .book-link:hover{background:#333}
+  .substack-link{display:inline-block;margin-left:1rem;font-family:sans-serif;font-size:.8rem;color:#7a5c1a;text-decoration:none;border-bottom:1px solid #fac775;padding-bottom:1px}
+  .substack-link:hover{border-color:#7a5c1a}
+  .contact{background:var(--text)}
+  .contact .section-label{color:var(--gold)}
+  .contact h2{color:#fff}
+  .contact p{color:#aaa;font-size:1rem;margin-bottom:2rem;max-width:500px}
+  .contact-email{display:inline-block;background:var(--gold);color:#000;padding:.9rem 2rem;border-radius:3px;text-decoration:none;font-family:sans-serif;font-weight:700;font-size:.9rem;letter-spacing:.05em;transition:background .2s}
+  .contact-email:hover{background:#e8c547}
+  .contact-links{margin-top:1.5rem;display:flex;gap:2rem;flex-wrap:wrap}
+  .contact-link{font-family:sans-serif;font-size:.8rem;color:#666;text-decoration:none;transition:color .2s}
+  .contact-link:hover{color:#aaa}
+  footer{background:var(--text);border-top:1px solid #333;padding:1.5rem 2rem;text-align:center;font-family:sans-serif;font-size:.75rem;color:#555}
+  footer a{color:var(--gold);text-decoration:none}
+  @media(max-width:640px){.hero-inner{flex-direction:column;gap:2rem}.hero-photo{width:100px;height:100px}.book-card{flex-direction:column;gap:1.5rem}}
 </style>
 </head>
 <body>
-
 <nav>
   <a class="logo" href="/">Hans Stam</a>
   <div class="nav-links">
@@ -140,9 +92,7 @@
 
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-photo">
-      <img src="https://media.licdn.com/dms/image/v2/D4E03AQGGdzdaLGPkpg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728136743906?e=1774483200&v=beta&t=MXiqlandu_L6g08mq-lcEfcvEzLU11Ys9aSBXrr0Kg0" alt="Hans Stam">
-    </div>
+    <div class="hero-photo"><img src="https://media.licdn.com/dms/image/v2/D4E03AQGGdzdaLGPkpg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728136743906?e=1774483200&v=beta&t=MXiqlandu_L6g08mq-lcEfcvEzLU11Ys9aSBXrr0Kg0" alt="Hans Stam"></div>
     <div class="hero-text">
       <div class="hero-eyebrow">Hardware &amp; Supply Chain Consultant · Berlin</div>
       <h1>I help hardware founders get from prototype to mass production — and get unstuck when things go wrong.</h1>
@@ -158,7 +108,7 @@
     <div class="section-label">Experience</div>
     <div class="cred-grid">
       <div class="cred-item"><div class="cred-num">150+</div><div class="cred-label">Cities across Europe where Voi hardware operates</div></div>
-      <div class="cred-item"><div class="cred-num">EVT→MP</div><div class="cred-label">Full hardware lifecycle experience from prototype to mass production</div></div>
+      <div class="cred-item"><div class="cred-num">EVT→MP</div><div class="cred-label">Full hardware lifecycle from prototype to mass production</div></div>
       <div class="cred-item"><div class="cred-num">China</div><div class="cred-label">Deep supplier relationships across Shenzhen, Guangdong &amp; Jiangsu</div></div>
       <div class="cred-item"><div class="cred-num">Book</div><div class="cred-label">Author of The Hardest Hardware Lessons — 45 copies sold in week one</div></div>
     </div>
@@ -173,7 +123,7 @@
       <div class="service-card">
         <div class="service-icon">Service 01</div>
         <div class="service-title">Get Unstuck</div>
-        <p class="service-desc">Your hardware project has hit a wall. Something isn't working and you can't see why — or you can see why but don't know how to fix it. I come in, identify the specific roadblock, and help you break through it. One focused engagement, one clear outcome.</p>
+        <p class="service-desc">Your hardware project has hit a wall. I come in, identify the specific roadblock, and help you break through it. One focused engagement, one clear outcome.</p>
         <ul class="service-list">
           <li>Prototype not performing as expected</li>
           <li>Stuck in the DFM phase</li>
@@ -185,7 +135,7 @@
       <div class="service-card">
         <div class="service-icon">Service 02</div>
         <div class="service-title">Prototype to Mass Production</div>
-        <p class="service-desc">You're building something physical and need an experienced partner alongside you for the full journey — from early prototype through EVT, DVT, PVT, and into mass production. I bring the practitioner knowledge that most founding teams don't have in-house.</p>
+        <p class="service-desc">You need an experienced partner alongside you for the full journey — from early prototype through EVT, DVT, PVT, and into mass production.</p>
         <ul class="service-list">
           <li>Development gate reviews (EVT, DVT, PVT)</li>
           <li>DFM and manufacturing readiness</li>
@@ -196,14 +146,71 @@
       </div>
     </div>
 
-    <div class="dfm-crosssell">
-      <div class="dfm-crosssell-icon">⚠️</div>
+    <!-- DFM Insights cross-sell -->
+    <div style="background:var(--gold-light);border:1px solid #f0c878;border-radius:4px;padding:1.5rem 2rem;display:flex;gap:1.5rem;align-items:flex-start;margin-top:1.5rem">
+      <div style="font-size:1.5rem;flex-shrink:0;margin-top:2px">⚠️</div>
       <div>
-        <div class="dfm-crosssell-label">Related tool</div>
-        <h4>Need an FMEA, project charter, or build timeline before our engagement?</h4>
-        <p>DFM Insights generates all three from your PRD and BOM in 48 hours — giving us a structured starting point for any advisory engagement. Consultants charge €8,000 for these documents. We charge €499.</p>
-        <a href="https://www.dfminsights.com/" target="_blank" rel="noopener">Generate your documents at dfminsights.com →</a>
+        <div style="font-family:sans-serif;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem;font-weight:600">Before our engagement</div>
+        <h4 style="font-size:1rem;font-weight:normal;color:var(--text);margin-bottom:.4rem">Need an FMEA, project charter, or build timeline?</h4>
+        <p style="font-family:sans-serif;font-size:.85rem;color:#7a5c1a;line-height:1.6;margin-bottom:.75rem">DFM Insights generates all three from your PRD and BOM in 48 hours — giving us a structured starting point. Consultants charge €8,000 for these documents. We charge €499.</p>
+        <a href="https://www.dfminsights.com/" target="_blank" rel="noopener" style="font-family:sans-serif;font-size:.82rem;color:var(--text);font-weight:600;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:1px">Generate your documents at dfminsights.com →</a>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS LADDER -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:5rem 2rem">
+  <div class="container">
+    <div class="section-label">All products &amp; services</div>
+    <h2>Every way to work with me.</h2>
+    <div style="display:flex;flex-direction:column;gap:0;border:1px solid var(--border);border-radius:4px;overflow:hidden;margin-top:2rem">
+
+      <div style="display:flex;align-items:center;gap:1.5rem;padding:1.25rem 1.5rem;background:#fff;border-bottom:1px solid var(--border)">
+        <div style="font-size:1.5rem;flex-shrink:0">📖</div>
+        <div style="flex:1">
+          <div style="font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:.2rem">The Hardest Hardware Lessons — Book</div>
+          <div style="font-family:sans-serif;font-size:.82rem;color:var(--muted)">Everything nobody tells you about building a physical product. PDF/ebook + paperback.</div>
+        </div>
+        <a href="https://thehardesthardwarelessons.com/" target="_blank" rel="noopener" style="font-family:sans-serif;font-size:.75rem;font-weight:600;color:var(--text);text-decoration:none;border:1px solid var(--border);padding:.4rem .9rem;border-radius:3px;white-space:nowrap;flex-shrink:0">From €19 →</a>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:1.5rem;padding:1.25rem 1.5rem;background:var(--gold-light);border-bottom:1px solid var(--border)">
+        <div style="font-size:1.5rem;flex-shrink:0">🎓</div>
+        <div style="flex:1">
+          <div style="font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:.2rem">China Sourcing Masterclass — Online Course</div>
+          <div style="font-family:sans-serif;font-size:.82rem;color:#7a5c1a">18 years of China sourcing experience in one course. How to find, evaluate, negotiate, and manage Chinese factories.</div>
+        </div>
+        <a href="https://hansolo42.gumroad.com/l/chinasourcing" target="_blank" rel="noopener" style="font-family:sans-serif;font-size:.75rem;font-weight:700;color:var(--text);text-decoration:none;background:var(--gold);padding:.4rem .9rem;border-radius:3px;white-space:nowrap;flex-shrink:0">€29 →</a>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:1.5rem;padding:1.25rem 1.5rem;background:#fff;border-bottom:1px solid var(--border)">
+        <div style="font-size:1.5rem;flex-shrink:0">⚠️</div>
+        <div style="flex:1">
+          <div style="font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:.2rem">DFM Insights — FMEA, Charter &amp; Timeline</div>
+          <div style="font-family:sans-serif;font-size:.82rem;color:var(--muted)">AI generates your FMEA report, project charter, and build timeline from your PRD and BOM. Hans reviews and signs off.</div>
+        </div>
+        <a href="https://www.dfminsights.com/" target="_blank" rel="noopener" style="font-family:sans-serif;font-size:.75rem;font-weight:600;color:var(--text);text-decoration:none;border:1px solid var(--border);padding:.4rem .9rem;border-radius:3px;white-space:nowrap;flex-shrink:0">From €499 →</a>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:1.5rem;padding:1.25rem 1.5rem;background:var(--bg);border-bottom:1px solid var(--border)">
+        <div style="font-size:1.5rem;flex-shrink:0">🏭</div>
+        <div style="flex:1">
+          <div style="font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:.2rem">Factory Truth — China Sourcing Concierge</div>
+          <div style="font-family:sans-serif;font-size:.82rem;color:var(--muted)">Done-for-you factory sourcing. Vetted shortlist of 3–5 suppliers with warm WeChat introductions. Flat fee.</div>
+        </div>
+        <a href="https://www.factorytruth.com/" target="_blank" rel="noopener" style="font-family:sans-serif;font-size:.75rem;font-weight:600;color:var(--text);text-decoration:none;border:1px solid var(--border);padding:.4rem .9rem;border-radius:3px;white-space:nowrap;flex-shrink:0">€2,000 →</a>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:1.5rem;padding:1.25rem 1.5rem;background:#fff">
+        <div style="font-size:1.5rem;flex-shrink:0">🔧</div>
+        <div style="flex:1">
+          <div style="font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:.2rem">Consulting — Get Unstuck or Prototype to MP</div>
+          <div style="font-family:sans-serif;font-size:.82rem;color:var(--muted)">One-on-one hardware advisory. Identify your roadblock and break through it, or partner for the full EVT→MP journey.</div>
+        </div>
+        <a href="#contact" style="font-family:sans-serif;font-size:.75rem;font-weight:600;color:var(--text);text-decoration:none;border:1px solid var(--border);padding:.4rem .9rem;border-radius:3px;white-space:nowrap;flex-shrink:0">Enquire →</a>
+      </div>
+
     </div>
   </div>
 </section>
@@ -215,7 +222,7 @@
     <p>I'm a hardware practitioner based in Berlin with years of experience across the full product lifecycle — from first prototype through EVT, DVT, and PVT to mass production and end-of-life. I currently work as Category Manager in Supply Chain &amp; Hardware at <strong>Voi Technology</strong>, one of Europe's leading shared micromobility operators, where I manage international supplier sourcing and hardware lifecycle across 150+ cities.</p>
     <p>I've watched hardware projects stall at every phase. Sometimes it's a technical problem. More often it's a process problem — a gate that wasn't held honestly, a DFM issue nobody caught early enough, a supplier relationship that isn't working. I'm good at identifying exactly where a project is stuck and what it will take to move it forward.</p>
     <p>I have deep experience with Chinese manufacturing partners across Shenzhen, Guangdong, and Jiangsu, and attend the Canton Fair annually. I know what good manufacturing relationships look like, what bad ones cost, and how to tell the difference before you've committed a purchase order.</p>
-    <p>I wrote <strong>The Hardest Hardware Lessons</strong> because I watched the same expensive mistakes repeat across hardware teams, year after year — and nobody had written them down. The book sold 45 copies in its first week through word of mouth alone. The problems it describes are real, and widely felt.</p>
+    <p>I wrote <strong>The Hardest Hardware Lessons</strong> because I watched the same expensive mistakes repeat across hardware teams, year after year — and nobody had written them down. The book sold 45 copies in its first week through word of mouth alone.</p>
     <p>I take on a small number of advisory engagements where I can make a genuine difference. If your company is navigating hardware development or China sourcing and needs an experienced outside perspective, I'd like to hear from you.</p>
   </div>
 </section>
@@ -227,9 +234,9 @@
     <div class="book-card">
       <div class="book-text">
         <h3>Everything nobody tells you about building a physical product.</h3>
-        <p>Every phase of a hardware product's life — from first prototype to end-of-life — with the specific mistakes named, the financial costs quantified, and the decision frameworks made explicit. The unpublished version of hardware development, written down.</p>
+        <p>Every phase of a hardware product's life — from first prototype to end-of-life — with the specific mistakes named, the financial costs quantified, and the decision frameworks made explicit.</p>
         <a class="book-link" href="https://thehardesthardwarelessons.com/buy" target="_blank" rel="noopener">Get the book →</a>
-        <a class="substack-link" href="https://thehardesthardwarelessons.substack.com" target="_blank" rel="noopener">Follow the daily Substack</a>
+        <a class="substack-link" href="https://thehardesthardwarelessons.substack.com" target="_blank" rel="noopener">Follow the Substack</a>
       </div>
     </div>
   </div>
@@ -246,6 +253,7 @@
       <a class="contact-link" href="https://thehardesthardwarelessons.com" target="_blank" rel="noopener">Book &amp; Substack →</a>
       <a class="contact-link" href="https://www.dfminsights.com/" target="_blank" rel="noopener">DFM Insights →</a>
       <a class="contact-link" href="https://www.factorytruth.com/" target="_blank" rel="noopener">Factory Truth →</a>
+      <a class="contact-link" href="https://hansolo42.gumroad.com/l/chinasourcing" target="_blank" rel="noopener">China Course →</a>
     </div>
   </div>
 </section>
@@ -253,7 +261,7 @@
 <footer>
   <p>© 2026 Hans Stam · Berlin · <a href="https://thehardesthardwarelessons.com">thehardesthardwarelessons.com</a></p>
 </footer>
-<script src="https://www.dfminsights.com/ecosystem.js"></script>
 
+<script src="https://www.dfminsights.com/ecosystem.js"></script>
 </body>
 </html>
